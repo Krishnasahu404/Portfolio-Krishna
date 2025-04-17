@@ -22,7 +22,7 @@ const Contact = () => {
             </ul>
         </div>
 
-        <div className='bg-white/10 p-6 rounded-xl w-[580px] mx-w-[550px]'>
+        <div className='bg-white/10 p-6 rounded-xl max-w-[550px] w-full md:w-[580px]'>
             <h2 className='text-5xl font-bold text-cyan-200 mb-4'>Location</h2>
             <p className='text-white/70 mb-6'>Feel free to reach out — I’d love to connect with you! </p>
 

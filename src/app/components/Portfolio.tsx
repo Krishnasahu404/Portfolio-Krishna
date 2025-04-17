@@ -60,7 +60,7 @@ const Portfolio = () => {
                     <h2 className='text-4xl'>{project.title}</h2>
                     <p className='text-lg text-white/70 break-words p-4'>{project.desc}</p>
                     <p className='text-xl text-cyan-200 font-semibold'>{project.devstack}</p>
-                    <div className='w-64 h-[1px] bg-gray-400 my-4'>
+                    <div className='w-64 h-[1px] bg-gray-400 my-5'>
                         <a className='text-white/70 hover:text-blue-500 transition-colors duration-300' href={project.github}>github</a>
                     </div>
                 </div>
